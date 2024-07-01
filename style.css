@@ -1,3 +1,18 @@
 body {
     background-color: aqua;
 }
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+}
+
+.header__header-list {
+    display: flex;
+    text-decoration: none;
+}
+
+.header__header-item {
+    padding-inline: 10px;
+}
